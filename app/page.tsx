@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-
+import images from "@/public/images";
 
 const filters = [
   { name: "All", height: "h-[34px]", padding: "px-4", width: "w-[52px]" },
@@ -56,7 +56,7 @@ export default function FilterSlider() {
       <section className="pt-[23px] ">
           <div className="flex">
             <div className="h-[60px] w-[60px] rounded-tl-[5px] rounded-tr-[1px] rounded-br-[1px] rounded-bl-[5px]">
-             <Image src="/images/Kagan.jpg" width={60} height={60} alt='kagan'   unoptimized
+             <Image src={images.Kagan} width={60} height={60} alt='kagan'   unoptimized
  />
             </div>
              <div className="w-[117px] h-[60px] bg-[rgb(39_39_39/0.91)] 
@@ -88,7 +88,7 @@ export default function FilterSlider() {
           >
             <div className="w-[158px] h-[151px]  overflow-hidden">
               <Image
-                src="/images/Bilie.jpg"
+                src={images.Bilie}
                 width={158}
                 height={151}
                 alt="Cover"
@@ -109,7 +109,7 @@ export default function FilterSlider() {
        <div className="w-[230px] h-[55px] mt-[25px] flex gap-[16px]">
        <div className="w-[50px] h-[50px]  overflow-hidden rounded-full">
               <Image
-                src="/images/hiphoplogist.jpg"
+                src={images.HipHopLogist}
                 width={50}
                 height={50}
                 alt="Cover"
