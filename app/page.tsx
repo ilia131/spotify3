@@ -56,7 +56,8 @@ export default function FilterSlider() {
       <section className="pt-[23px] ">
           <div className="flex">
             <div className="h-[60px] w-[60px] rounded-tl-[5px] rounded-tr-[1px] rounded-br-[1px] rounded-bl-[5px]">
-             <Image src="/images/Kagan.jpg" width={60} height={60} alt='kagan' />
+             <Image src="/images/Kagan.jpg" width={60} height={60} alt='kagan'   unoptimized
+ />
             </div>
              <div className="w-[117px] h-[60px] bg-[rgb(39_39_39/0.91)] 
                flex justify-center items-center rounded-tl-[1px] rounded-tr-[5px] rounded-br-[5px] rounded-bl-[1px]"> 
@@ -91,6 +92,8 @@ export default function FilterSlider() {
                 width={158}
                 height={151}
                 alt="Cover"
+                unoptimized
+
               />
             </div>
 
@@ -110,6 +113,8 @@ export default function FilterSlider() {
                 width={50}
                 height={50}
                 alt="Cover"
+                unoptimized
+
               />
           </div>
           <div className="w-[164px] h-[55px] grid">
@@ -139,6 +144,8 @@ export default function FilterSlider() {
                 width={158}
                 height={151}
                 alt="Cover"
+                unoptimized
+
               />
             </div>
 
